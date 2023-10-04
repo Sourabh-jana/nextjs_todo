@@ -25,3 +25,7 @@ body {
     )
     rgb(var(--background-start-rgb));
 }
+
+.btn {
+  @apply border rounded-lg px-3 py-1 bg-slate-800 hover:bg-slate-700 focus:ring-1 focus-within:ring-blue-700
+}
